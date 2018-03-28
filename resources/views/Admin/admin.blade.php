@@ -21,7 +21,3 @@
     </div>
 </div>
 @endsection
-
-@section('css')
-    <link rel="stylesheet" href="/css/admin_costom.css">
-@endsection

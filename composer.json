@@ -7,10 +7,11 @@
     "require": {
         "php": "^7.1.3",
         "fideloper/proxy": "^4.0",
+        "greggilbert/recaptcha": "dev-master",
         "jeroennoten/laravel-adminlte": "^1.23",
         "laravel/framework": "5.6.*",
         "laravel/tinker": "^1.0",
-        "greggilbert/recaptcha": "dev-master"
+        "santigarcor/laratrust": "5.0.*"
     },
     "require-dev": {
         "filp/whoops": "^2.0",

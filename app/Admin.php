@@ -4,10 +4,11 @@ namespace App;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Laratrust\Traits\LaratrustUserTrait;
 
 class Admin extends Authenticatable
 {
-    use Notifiable;
+    use Notifiable, LaratrustUserTrait;
 
     protected $guard = 'admin';
 
@@ -17,7 +18,7 @@ class Admin extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password', 'start_password',
     ];
 
     /**

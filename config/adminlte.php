@@ -108,18 +108,21 @@ return [
     */
 
     'menu' => [
-        'MAIN NAVIGATION',
+        'Administracja',
         [
-            'text' => 'Blog',
-            'url'  => 'admin/blog',
-            'can'  => 'manage-blog',
+            'text'        => 'Użytkownicy',
+            'url'         => 'admin/admins',
+            'icon'        => 'user',
         ],
         [
-            'text'        => 'Pages',
-            'url'         => 'admin/pages',
-            'icon'        => 'file',
-            'label'       => 4,
-            'label_color' => 'success',
+            'text'        => 'Role',
+            'url'         => 'admin/roles',
+            'icon'        => 'lock',
+        ],
+        [
+            'text'        => 'Uprawnienia',
+            'url'         => 'admin/permissions',
+            'icon'        => 'lock',
         ],
         'ACCOUNT SETTINGS',
         [
